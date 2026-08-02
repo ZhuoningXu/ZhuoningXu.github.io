@@ -19,9 +19,9 @@ applied machine learning**. I am especially interested in vision–language mode
 medical image enhancement, and building reliable, reproducible ML systems — from
 data pipelines and training to packaging models for efficient inference.
 
-**Currently**, I am working on **LLM-agent applications and post-training**
-(reinforcement learning / continual fine-tuning for personalization and behavior
-adaptation). I am **actively open to research opportunities and collaborations** —
+**Currently**, I am working on **multi-agent systems, LLM-agent safety, and reliable
+coordination**, with a focus on preserving user authorization across agent
+architectures. I am **actively open to research opportunities and collaborations** —
 feel free to reach out.
 
 Research highlights
@@ -35,10 +35,11 @@ Research highlights
   network with a Triple-Cross-Fusion GAN for joint denoising and classification,
   improving image quality and classification accuracy while keeping real-time
   inference on GPU. Published at **APSIPA ASC 2024** and **IWAIT 2025**.
-- **Personalized Online RL for User Style Adaptation (GRPO)** — ongoing work on
-  online continual fine-tuning that learns a user's problem-solving style from
-  natural reward signals and injects personalized behavioral specifications at
-  inference time.
+- **MasDrift — Benchmarking Authorization Preservation Across Multi-Agent
+  Architectures** — a benchmark of 600 benign productivity tasks across eight
+  domains that reveals a centralization tradeoff between task completion and
+  authorization preservation. *Preprint; arXiv posting forthcoming.*
+  ([Code](https://github.com/ZhuoningXu/MasDrift)).
 
 Beyond research, I have interned across **software engineering, data engineering,
 and quantitative trading** — building a monitoring web app and reusable front-end

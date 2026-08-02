@@ -53,7 +53,7 @@ Internship Experience
 Research Experience
 ======
 * **VLHSA: Vision-Language Hierarchical Semantic Alignment for Jigsaw Puzzle Solving with Eroded Gaps** (2025) — *Accepted to the AAAI-26 Student Abstract Program* ([arXiv:2509.25202](https://arxiv.org/abs/2509.25202)). Multimodal (Mamba / state-space) framework with hierarchical semantic alignment between visual patches and text; +14.2 pp piece accuracy over vision-only baselines. Led the full research pipeline and ablations.
-* **Personalized Online RL System for User Style Adaptation via GRPO** (March 2026 – Present) — online continual fine-tuning of Qwen3.5-4B (OpenClaw-RL) using natural reward signals and a PRM to learn user style. *Ongoing.*
+* **MasDrift: Benchmarking Authorization Preservation Across Multi-Agent Architectures** (2026) — benchmarked authorization preservation across single-agent, centralized, and decentralized architectures using 600 benign productivity tasks in eight domains; evaluated request re-anchoring and delegation-chain policy propagation as defenses. *Preprint; arXiv posting forthcoming.* ([Code](https://github.com/ZhuoningXu/MasDrift))
 * **A Multi-Perceptual Learning Network for Retina OCT Image Denoising and Classification** (Jan. 2024 – Sept. 2024) — ResNet + Multi-Perception Learning with a Triple-Cross-Fusion GAN for joint denoising and classification.
 * **Sensor-based System for Monitoring Physical Activity in Older Adults** (Sept. 2023 – Sept. 2024) — YOLOv8-Pose + LSTM pipeline; >90% accuracy on 200 samples.
 
