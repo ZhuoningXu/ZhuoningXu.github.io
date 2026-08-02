@@ -1,10 +1,10 @@
-# KeiraXu03.github.io
+# ZhuoningXu.github.io
 
 Personal academic website of **Zhuoning (Johnny) XU** — MS in Computer Science at
 NYU Courant. Built with the [Academic Pages](https://github.com/academicpages/academicpages.github.io)
 Jekyll template and hosted on GitHub Pages.
 
-**Live site:** https://KeiraXu03.github.io
+**Live site:** https://ZhuoningXu.github.io
 
 ## How content is organized
 
