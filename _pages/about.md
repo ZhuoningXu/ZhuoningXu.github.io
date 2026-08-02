@@ -19,10 +19,13 @@ applied machine learning**. I am especially interested in vision–language mode
 medical image enhancement, and building reliable, reproducible ML systems — from
 data pipelines and training to packaging models for efficient inference.
 
-**Currently**, I am working on **multi-agent systems, LLM-agent safety, and reliable
-coordination**, with a focus on preserving user authorization across agent
-architectures. I am **actively open to research opportunities and collaborations** —
-feel free to reach out.
+**Currently**, I am working on **multi-agent systems and agent applications**. My
+recent work, **MasDrift**, studies authorization preservation
+across multi-agent architectures and was conducted under the guidance of
+**Prof. Hanan Salam at NYU Abu Dhabi** and **Prof. Yinpeng Dong at Tsinghua
+University**. Alongside this work, I am exploring how agents can support reliable
+decision-making in real-world applications. I am **actively open to research
+opportunities and collaborations** — feel free to reach out.
 
 Research highlights
 ======
@@ -38,7 +41,7 @@ Research highlights
   125,275 real coding-agent sessions, with 193 human-validated repository tasks that
   isolate five types of plan-content failure. *AAAI 2027 Conference Submission*
   ([OpenReview](https://openreview.net/forum?id=EYL854kJNj)).
-  - **Authors:** Hanjun Luo, Zhimu Huang, Alyssa Wu, Xiucheng Zhang, **Zhuoning Xu**, et al.
+  - **Authors:** Hanjun Luo, Xiucheng Zhang, **Zhuoning Xu**, et al.
   - **Affiliations:** New York University; New York University Abu Dhabi
   - **Corresponding author:** Hanan Salam, New York University Abu Dhabi
 - **VLHSA — Vision–Language Jigsaw Puzzle Solving with Eroded Gaps** — a multimodal
@@ -65,7 +68,12 @@ Research highlights
 Beyond research, I have interned across **software engineering, data engineering,
 and quantitative trading** — building a monitoring web app and reusable front-end
 hooks, BI/visualization dashboards for 10+ clients, and a from-scratch Python
-quantitative trading and backtesting framework with an AI-agent news-analysis platform.
+quantitative trading and backtesting framework with an AI-agent news-analysis
+platform. These experiences have also sparked my interest in using agents to detect
+market changes, synthesize financial information, and support quantitative research.
+In the longer term, I hope to connect rigorous AI research with practical systems,
+and I am especially interested in opportunities related to Hong Kong's technology
+and financial ecosystem.
 
 See my [publications](/publications/), [projects](/portfolio/), and
 [CV](/cv/) for details. Feel free to reach out at

@@ -3,7 +3,7 @@ title: "MisPlan: When Plans Hurt Coding Agents"
 excerpt: "A diagnostic benchmark showing that correct plans help coding agents, while goal-scope errors can make planning substantially worse than having no plan. <b>AAAI 2027 Conference Submission.</b>"
 collection: portfolio
 order: 2
-authors: '<a href="https://openreview.net/profile?id=~Hanjun_Luo1">Hanjun Luo</a>, <a href="https://openreview.net/profile?id=~Zhimu_Huang1">Zhimu Huang</a>, <a href="https://openreview.net/profile?id=~Alyssa_Wu1">Alyssa Wu</a>, <a href="https://openreview.net/profile?id=~Xiucheng_Zhang1">Xiucheng Zhang</a>, <strong><a href="https://openreview.net/profile?id=~Zhuoning_Xu3">Zhuoning Xu</a></strong>, et al.'
+authors: '<a href="https://openreview.net/profile?id=~Hanjun_Luo1">Hanjun Luo</a>, <a href="https://openreview.net/profile?id=~Xiucheng_Zhang1">Xiucheng Zhang</a>, <strong><a href="https://openreview.net/profile?id=~Zhuoning_Xu3">Zhuoning Xu</a></strong>, et al.'
 affiliations: 'New York University; New York University Abu Dhabi'
 author_note: 'Corresponding author: <a href="https://openreview.net/profile?id=~Hanan_Salam1">Hanan Salam</a> (New York University Abu Dhabi). Full author list available on OpenReview.'
 ---

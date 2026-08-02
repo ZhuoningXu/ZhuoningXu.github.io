@@ -63,7 +63,7 @@ Research Experience
 </div>
 
 * **MisPlan: When Plans Hurt Coding Agents** (2026) — *AAAI 2027 Conference Submission* ([OpenReview](https://openreview.net/forum?id=EYL854kJNj)).
-  * **Authors:** Hanjun Luo, Zhimu Huang, Alyssa Wu, Xiucheng Zhang, **Zhuoning Xu**, et al.
+  * **Authors:** Hanjun Luo, Xiucheng Zhang, **Zhuoning Xu**, et al.
   * **Affiliations:** New York University; New York University Abu Dhabi
   * **Corresponding author:** Hanan Salam, New York University Abu Dhabi
   * Built a diagnostic benchmark from 125,275 real coding-agent sessions and 193 human-validated repository tasks; showed that goal-scope errors can reduce resolve rate by 25 percentage points and make planning worse than no plan.
