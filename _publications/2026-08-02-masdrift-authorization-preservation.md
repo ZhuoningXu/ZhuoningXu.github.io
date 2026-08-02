@@ -6,21 +6,11 @@ permalink: /publication/2026-masdrift-authorization-preservation
 excerpt: 'A benchmark of 600 benign productivity tasks across eight domains for measuring how well single-agent, centralized, and decentralized multi-agent architectures preserve user authorization while completing delegated work.'
 date: 2026-08-02
 status: 'Preprint — arXiv posting forthcoming'
+authors: '<strong>Zhuoning Xu</strong><sup>1,*</sup>, Xiucheng Zhang<sup>1,*</sup>, Hanjun Luo<sup>1,2,*</sup>, Yingbin Jin<sup>3</sup>, Yinpeng Dong<sup>4,†</sup>, and Hanan Salam<sup>1,2</sup>'
+affiliations: '<sup>1</sup> New York University; <sup>2</sup> New York University Abu Dhabi; <sup>3</sup> The Hong Kong Polytechnic University; <sup>4</sup> Tsinghua University'
+author_note: '<sup>*</sup> Equal contribution; <sup>†</sup> Corresponding author.'
 citation: 'Zhuoning Xu, Xiucheng Zhang, Hanjun Luo, Yingbin Jin, Yinpeng Dong, and Hanan Salam. (2026). &quot;MasDrift: Benchmarking Authorization Preservation Across Multi-Agent Architectures.&quot; Preprint.'
 ---
-
-**Authors:** Zhuoning Xu<sup>1,*</sup>, Xiucheng Zhang<sup>1,*</sup>,
-Hanjun Luo<sup>1,2,*</sup>, Yingbin Jin<sup>3</sup>,
-Yinpeng Dong<sup>4,†</sup>, Hanan Salam<sup>1,2</sup>
-
-<sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.
-
-**Affiliations:**
-
-1. New York University
-2. New York University Abu Dhabi
-3. The Hong Kong Polytechnic University
-4. Tsinghua University
 
 Abstract
 ======

@@ -2,6 +2,8 @@
 title: "VLHSA: Vision–Language Jigsaw Puzzle Solving with Eroded Gaps"
 excerpt: "A multimodal (Mamba-based) framework that uses text as semantic guidance to solve jigsaw puzzles with eroded gaps — +14.2 pp piece accuracy. <b>AAAI-26 Student Abstract.</b>"
 collection: portfolio
+authors: '<strong>Zhuoning Xu</strong><sup>1</sup> and Xinyan Liu<sup>1</sup>'
+affiliations: '<sup>1</sup> The Hong Kong Polytechnic University'
 ---
 
 **2025 · Accepted to the AAAI-26 Student Abstract Program**
@@ -20,5 +22,3 @@ provides crucial semantic guidance.
 - Significantly outperforms state-of-the-art vision-only models across datasets,
   with a **+14.2 percentage-point** gain in piece accuracy; ablations confirm the
   critical role of the VLHSA module.
-
-*Authors: Zhuoning Xu, Xinyan Liu.*

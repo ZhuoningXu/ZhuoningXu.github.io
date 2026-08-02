@@ -7,6 +7,8 @@ excerpt: 'A vision–language framework that uses textual context and hierarchic
 date: 2026-01-01
 venue: 'Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-26), Student Abstract Program'
 paperurl: 'https://arxiv.org/abs/2509.25202'
+authors: '<strong>Zhuoning Xu</strong><sup>1</sup> and Xinyan Liu<sup>1</sup>'
+affiliations: '<sup>1</sup> The Hong Kong Polytechnic University'
 citation: 'Zhuoning Xu and Xinyan Liu. (2026). &quot;VLHSA: Vision-Language Hierarchical Semantic Alignment for Jigsaw Puzzle Solving with Eroded Gaps (Student Abstract).&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-26)</i>.'
 ---
 Jigsaw puzzle solving requires understanding both local fragment details and global
@@ -21,8 +23,6 @@ architecture combining **dual visual encoders** with language features for cross
 reasoning. Experiments show significant improvements over state-of-the-art models
 across datasets, including a **14.2 percentage-point gain in piece accuracy**, and
 ablations confirm the critical role of the VLHSA module over vision-only baselines.
-
-**Authors:** Zhuoning Xu, Xinyan Liu
 
 Links:
 [arXiv:2509.25202](https://arxiv.org/abs/2509.25202) ·

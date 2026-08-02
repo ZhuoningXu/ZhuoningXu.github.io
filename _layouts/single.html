@@ -47,6 +47,14 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.authors %}
+          <div class="publication-authors">
+            <p><strong>Authors:</strong> {{ page.authors }}</p>
+            {% if page.affiliations %}<p><strong>Affiliations:</strong> {{ page.affiliations }}</p>{% endif %}
+            {% if page.author_note %}<p><small>{{ page.author_note }}</small></p>{% endif %}
+          </div>
+        {% endif %}
+
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}

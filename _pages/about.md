@@ -31,15 +31,27 @@ Research highlights
   alignment to solve jigsaw puzzles, improving piece accuracy by **+14.2 points** over
   vision-only baselines. *Accepted to the AAAI-26 Student Abstract Program*
   ([arXiv](https://arxiv.org/abs/2509.25202)).
-- **Retina OCT Image Denoising & Classification** — a multi-perceptual learning
-  network with a Triple-Cross-Fusion GAN for joint denoising and classification,
-  improving image quality and classification accuracy while keeping real-time
-  inference on GPU. Published at **APSIPA ASC 2024** and **IWAIT 2025**.
+  - **Authors:** **Zhuoning Xu**<sup>1</sup> and Xinyan Liu<sup>1</sup>
+  - **Affiliation:** <sup>1</sup> The Hong Kong Polytechnic University
+- **MFGAN — OCT Image Super-Resolution and Enhancement** — blind degradation and
+  multi-frame fusion for reconstructing high-quality retinal OCT images. Published
+  at **IWAIT 2025** ([DOI](https://doi.org/10.1117/12.3057230)).
+  - **Authors:** Zongqi He<sup>1</sup>, Zhe Xiao<sup>1</sup>, **Zhuoning Xu**<sup>1</sup>, et al.
+  - **Affiliations:** <sup>1</sup> The Hong Kong Polytechnic University; <sup>2</sup> University of Technology Sydney
+- **Multi-Perceptual Learning Network for Retina OCT** — joint denoising and
+  classification with a Triple-Cross-Fusion GAN, improving image quality and
+  classification accuracy while retaining real-time GPU inference. Published at
+  **APSIPA ASC 2024** ([DOI](https://doi.org/10.1109/APSIPAASC63619.2025.10848686)).
+  - **Authors:** Zhe Xiao<sup>1</sup>, Zongqi He<sup>1</sup>, **Zhuoning Xu**<sup>1</sup>, et al.
+  - **Affiliations:** <sup>1</sup> The Hong Kong Polytechnic University; <sup>2</sup> University of Technology Sydney
 - **MasDrift — Benchmarking Authorization Preservation Across Multi-Agent
   Architectures** — a benchmark of 600 benign productivity tasks across eight
   domains that reveals a centralization tradeoff between task completion and
   authorization preservation. *Preprint; arXiv posting forthcoming.*
   ([Code](https://github.com/ZhuoningXu/MasDrift)).
+  - **Authors:** **Zhuoning Xu**<sup>1,*</sup>, Xiucheng Zhang<sup>1,*</sup>, Hanjun Luo<sup>1,2,*</sup>, Yingbin Jin<sup>3</sup>, Yinpeng Dong<sup>4,†</sup>, and Hanan Salam<sup>1,2</sup>
+  - **Affiliations:** <sup>1</sup> New York University; <sup>2</sup> New York University Abu Dhabi; <sup>3</sup> The Hong Kong Polytechnic University; <sup>4</sup> Tsinghua University
+  - <sup>*</sup> Equal contribution; <sup>†</sup> Corresponding author.
 
 Beyond research, I have interned across **software engineering, data engineering,
 and quantitative trading** — building a monitoring web app and reusable front-end

@@ -36,6 +36,9 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
+    {% if post.authors %}<p class="archive__item-excerpt" itemprop="description"><strong>Authors:</strong> {{ post.authors }}</p>{% endif %}
+    {% if post.affiliations %}<p class="archive__item-excerpt" itemprop="description"><strong>Affiliations:</strong> {{ post.affiliations }}</p>{% endif %}
+    {% if post.author_note %}<p class="archive__item-excerpt" itemprop="description"><small>{{ post.author_note }}</small></p>{% endif %}
     {% if post.citation %}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
     </li>
  </article>
