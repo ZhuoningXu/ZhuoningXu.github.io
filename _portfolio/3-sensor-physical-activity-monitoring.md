@@ -2,6 +2,7 @@
 title: "Sensor-based Physical Activity Monitoring & Feedback for Older Adults"
 excerpt: "End-to-end pose-estimation pipeline (YOLOv8-Pose + LSTM) that monitors physical activity and provides feedback, with >90% classification accuracy."
 collection: portfolio
+order: 6
 ---
 
 **Sept. 2023 – Sept. 2024**

@@ -26,6 +26,21 @@ feel free to reach out.
 
 Research highlights
 ======
+- **MasDrift — Benchmarking Authorization Preservation Across Multi-Agent
+  Architectures** — a benchmark of 600 benign productivity tasks across eight
+  domains that reveals a centralization tradeoff between task completion and
+  authorization preservation. *Preprint; arXiv posting forthcoming.*
+  ([Code](https://github.com/ZhuoningXu/MasDrift)).
+  - **Authors:** **Zhuoning Xu**<sup>1,*</sup>, Xiucheng Zhang<sup>1,*</sup>, Hanjun Luo<sup>1,2,*</sup>, Yingbin Jin<sup>3</sup>, Yinpeng Dong<sup>4,†</sup>, and Hanan Salam<sup>1,2</sup>
+  - **Affiliations:** <sup>1</sup> New York University; <sup>2</sup> New York University Abu Dhabi; <sup>3</sup> The Hong Kong Polytechnic University; <sup>4</sup> Tsinghua University
+  - <sup>*</sup> Equal contribution; <sup>†</sup> Corresponding author.
+- **MisPlan — When Plans Hurt Coding Agents** — a diagnostic benchmark grounded in
+  125,275 real coding-agent sessions, with 193 human-validated repository tasks that
+  isolate five types of plan-content failure. *AAAI 2027 Conference Submission*
+  ([OpenReview](https://openreview.net/forum?id=EYL854kJNj)).
+  - **Authors:** Hanjun Luo, Zhimu Huang, Alyssa Wu, Xiucheng Zhang, **Zhuoning Xu**, et al.
+  - **Affiliations:** New York University; New York University Abu Dhabi
+  - **Corresponding author:** Hanan Salam, New York University Abu Dhabi
 - **VLHSA — Vision–Language Jigsaw Puzzle Solving with Eroded Gaps** — a multimodal
   (Mamba / state-space) framework that uses textual context and hierarchical semantic
   alignment to solve jigsaw puzzles, improving piece accuracy by **+14.2 points** over
@@ -37,21 +52,15 @@ Research highlights
   multi-frame fusion for reconstructing high-quality retinal OCT images. Published
   at **IWAIT 2025** ([DOI](https://doi.org/10.1117/12.3057230)).
   - **Authors:** Zongqi He<sup>1</sup>, Zhe Xiao<sup>1</sup>, **Zhuoning Xu**<sup>1</sup>, et al.
+  - **Corresponding authors:** Wenjing Jia<sup>2</sup> and Kin-Man Lam<sup>1</sup>
   - **Affiliations:** <sup>1</sup> The Hong Kong Polytechnic University; <sup>2</sup> University of Technology Sydney
 - **Multi-Perceptual Learning Network for Retina OCT** — joint denoising and
   classification with a Triple-Cross-Fusion GAN, improving image quality and
   classification accuracy while retaining real-time GPU inference. Published at
   **APSIPA ASC 2024** ([DOI](https://doi.org/10.1109/APSIPAASC63619.2025.10848686)).
   - **Authors:** Zhe Xiao<sup>1</sup>, Zongqi He<sup>1</sup>, **Zhuoning Xu**<sup>1</sup>, et al.
+  - **Corresponding authors:** Wenjing Jia<sup>2</sup> and Kin-Man Lam<sup>1</sup>
   - **Affiliations:** <sup>1</sup> The Hong Kong Polytechnic University; <sup>2</sup> University of Technology Sydney
-- **MasDrift — Benchmarking Authorization Preservation Across Multi-Agent
-  Architectures** — a benchmark of 600 benign productivity tasks across eight
-  domains that reveals a centralization tradeoff between task completion and
-  authorization preservation. *Preprint; arXiv posting forthcoming.*
-  ([Code](https://github.com/ZhuoningXu/MasDrift)).
-  - **Authors:** **Zhuoning Xu**<sup>1,*</sup>, Xiucheng Zhang<sup>1,*</sup>, Hanjun Luo<sup>1,2,*</sup>, Yingbin Jin<sup>3</sup>, Yinpeng Dong<sup>4,†</sup>, and Hanan Salam<sup>1,2</sup>
-  - **Affiliations:** <sup>1</sup> New York University; <sup>2</sup> New York University Abu Dhabi; <sup>3</sup> The Hong Kong Polytechnic University; <sup>4</sup> Tsinghua University
-  - <sup>*</sup> Equal contribution; <sup>†</sup> Corresponding author.
 
 Beyond research, I have interned across **software engineering, data engineering,
 and quantitative trading** — building a monitoring web app and reusable front-end

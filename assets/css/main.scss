@@ -41,3 +41,37 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Academic editorial typography: serif body copy with restrained sans headings. */
+.page__title,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.archive__item-title {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.page__content,
+.archive__item-excerpt,
+.publication-authors {
+  line-height: 1.58;
+}
+
+.publication-links {
+  font-family: $sans-serif;
+  font-size: 0.85em;
+}
+
+/* Subtle emphasis for the newest research entry without using a badge. */
+.research-featured {
+  margin: 0.5em 0 1.35em;
+  padding: 0.75em 1em 0.2em;
+  border-left: 2px solid var(--global-link-color);
+  border-radius: 0 $border-radius $border-radius 0;
+  background: var(--global-code-background-color);
+}
+
+.research-featured > ul {
+  margin-top: 0;
+}

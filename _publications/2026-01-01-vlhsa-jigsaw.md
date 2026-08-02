@@ -9,7 +9,6 @@ venue: 'Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-26),
 paperurl: 'https://arxiv.org/abs/2509.25202'
 authors: '<strong>Zhuoning Xu</strong><sup>1</sup> and Xinyan Liu<sup>1</sup>'
 affiliations: '<sup>1</sup> The Hong Kong Polytechnic University'
-citation: 'Zhuoning Xu and Xinyan Liu. (2026). &quot;VLHSA: Vision-Language Hierarchical Semantic Alignment for Jigsaw Puzzle Solving with Eroded Gaps (Student Abstract).&quot; <i>Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-26)</i>.'
 ---
 Jigsaw puzzle solving requires understanding both local fragment details and global
 spatial relationships. While most traditional approaches focus only on visual cues

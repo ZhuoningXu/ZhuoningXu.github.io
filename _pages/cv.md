@@ -52,21 +52,33 @@ Internship Experience
 
 Research Experience
 ======
-* **VLHSA: Vision-Language Hierarchical Semantic Alignment for Jigsaw Puzzle Solving with Eroded Gaps** (2025) — *Accepted to the AAAI-26 Student Abstract Program* ([arXiv:2509.25202](https://arxiv.org/abs/2509.25202)).
-  * **Authors:** **Zhuoning Xu**<sup>1</sup> and Xinyan Liu<sup>1</sup>
-  * **Affiliation:** <sup>1</sup> The Hong Kong Polytechnic University
-  * Multimodal (Mamba / state-space) framework with hierarchical semantic alignment between visual patches and text; +14.2 pp piece accuracy over vision-only baselines. Led the full research pipeline and ablations.
+<div class="research-featured" markdown="1">
+
 * **MasDrift: Benchmarking Authorization Preservation Across Multi-Agent Architectures** (2026) — *Preprint; arXiv posting forthcoming.* ([Code](https://github.com/ZhuoningXu/MasDrift))
   * **Authors:** **Zhuoning Xu**<sup>1,*</sup>, Xiucheng Zhang<sup>1,*</sup>, Hanjun Luo<sup>1,2,*</sup>, Yingbin Jin<sup>3</sup>, Yinpeng Dong<sup>4,†</sup>, and Hanan Salam<sup>1,2</sup>
   * **Affiliations:** <sup>1</sup> New York University; <sup>2</sup> New York University Abu Dhabi; <sup>3</sup> The Hong Kong Polytechnic University; <sup>4</sup> Tsinghua University
   * <sup>*</sup> Equal contribution; <sup>†</sup> Corresponding author.
   * Benchmarked authorization preservation across single-agent, centralized, and decentralized architectures using 600 benign productivity tasks in eight domains; evaluated request re-anchoring and delegation-chain policy propagation as defenses.
+
+</div>
+
+* **MisPlan: When Plans Hurt Coding Agents** (2026) — *AAAI 2027 Conference Submission* ([OpenReview](https://openreview.net/forum?id=EYL854kJNj)).
+  * **Authors:** Hanjun Luo, Zhimu Huang, Alyssa Wu, Xiucheng Zhang, **Zhuoning Xu**, et al.
+  * **Affiliations:** New York University; New York University Abu Dhabi
+  * **Corresponding author:** Hanan Salam, New York University Abu Dhabi
+  * Built a diagnostic benchmark from 125,275 real coding-agent sessions and 193 human-validated repository tasks; showed that goal-scope errors can reduce resolve rate by 25 percentage points and make planning worse than no plan.
+* **VLHSA: Vision-Language Hierarchical Semantic Alignment for Jigsaw Puzzle Solving with Eroded Gaps** (2025) — *Accepted to the AAAI-26 Student Abstract Program* ([arXiv:2509.25202](https://arxiv.org/abs/2509.25202)).
+  * **Authors:** **Zhuoning Xu**<sup>1</sup> and Xinyan Liu<sup>1</sup>
+  * **Affiliation:** <sup>1</sup> The Hong Kong Polytechnic University
+  * Multimodal (Mamba / state-space) framework with hierarchical semantic alignment between visual patches and text; +14.2 pp piece accuracy over vision-only baselines. Led the full research pipeline and ablations.
 * **MFGAN: OCT Image Super-Resolution and Enhancement with Blind Degradation and Multi-Frame Fusion** (2025) — *IWAIT 2025.* ([DOI](https://doi.org/10.1117/12.3057230))
   * **Authors:** Zongqi He<sup>1</sup>, Zhe Xiao<sup>1</sup>, **Zhuoning Xu**<sup>1</sup>, et al.
+  * **Corresponding authors:** Wenjing Jia<sup>2</sup> and Kin-Man Lam<sup>1</sup>
   * **Affiliations:** <sup>1</sup> The Hong Kong Polytechnic University; <sup>2</sup> University of Technology Sydney
   * Developed a blind-degradation and multi-frame-fusion framework for OCT super-resolution and enhancement.
 * **A Multi-Perceptual Learning Network for Retina OCT Image Denoising and Classification** (Jan. 2024 – Sept. 2024) — *APSIPA ASC 2024.* ([DOI](https://doi.org/10.1109/APSIPAASC63619.2025.10848686))
   * **Authors:** Zhe Xiao<sup>1</sup>, Zongqi He<sup>1</sup>, **Zhuoning Xu**<sup>1</sup>, et al.
+  * **Corresponding authors:** Wenjing Jia<sup>2</sup> and Kin-Man Lam<sup>1</sup>
   * **Affiliations:** <sup>1</sup> The Hong Kong Polytechnic University; <sup>2</sup> University of Technology Sydney
   * ResNet + Multi-Perception Learning with a Triple-Cross-Fusion GAN for joint denoising and classification.
 * **Sensor-based System for Monitoring Physical Activity in Older Adults** (Sept. 2023 – Sept. 2024) — YOLOv8-Pose + LSTM pipeline; >90% accuracy on 200 samples.
