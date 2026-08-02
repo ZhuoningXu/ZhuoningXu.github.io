@@ -11,11 +11,12 @@ I am **Zhuoning (Johnny) XU**, a Master's student in Computer Science at the
 [Courant Institute of Mathematical Sciences, New York University](https://cs.nyu.edu/)
 (Sept. 2025 – May 2027, expected). Before NYU, I earned a First-Class Honours BEng in
 Electronic & Information Engineering (Minor in Computing) from
-[The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), where I graduated
-**ranked top 3 in my major** and received several merit and government scholarships.
+[The Hong Kong Polytechnic University](https://www.polyu.edu.hk/) (Aug. 2021 – Jul.
+2025), where I graduated **ranked top 3 in my major** and received several merit
+scholarships.
 
-My work sits at the intersection of **multimodal learning, computer vision, and
-applied machine learning**. I am especially interested in vision–language models,
+My work sits at the intersection of **multimodal learning and applied machine
+learning**. I am especially interested in vision–language models,
 medical image enhancement, and building reliable, reproducible ML systems — from
 data pipelines and training to packaging models for efficient inference.
 

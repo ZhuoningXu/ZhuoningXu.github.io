@@ -18,14 +18,11 @@ Education
 * M.S. in Computer Science, New York University (Courant Institute of Mathematical Sciences), Sept. 2025 – May 2027 (expected)
   * GPA: 3.78 / 4.0
   * Coursework: Programming Languages (Racket), Fundamental Algorithms, Mathematical Techniques for CS Applications, Machine Learning, Operating Systems, Natural Language Processing
-* B.Eng. in Electronic & Information Engineering (Minor in Computing), The Hong Kong Polytechnic University, Sept. 2021 – Jun. 2025
+* B.Eng. in Electronic & Information Engineering (Minor in Computing), The Hong Kong Polytechnic University, Aug. 2021 – Jul. 2025
   * First-Class Honours · ranked **Top 3 in major** (GPA 3.8) · Dean's Honours List (2021/22, 2022/23, 2023/24)
 
 Awards &amp; Honors
 ======
-* **Hong Kong Government Scholarship for Outstanding Performance 2024/25** — HK$80,000 · The Hong Kong Polytechnic University
-* **Hong Kong Government Scholarship (Talent)** — HK$10,000 · Dec. 2024 · The Hong Kong Polytechnic University
-* **Hong Kong Government Scholarship (Reaching Out Award)** — HK$10,000 · Dec. 2024 · The Hong Kong Polytechnic University
 * **Dean's Honours List** (2023/24, 2022/23, 2021/22) — Faculty of Engineering, PolyU · Oct. 2024
 * **VTech Group of Companies Scholarship 2023/24** — Department of Electrical and Electronic Engineering, PolyU jointly with VTech Group of Companies · Aug. 2024
 * **EEE Microcontroller Application Design Contest — 2nd Runner-up** — Department of Electrical and Electronic Engineering, PolyU jointly with RS Components Ltd. · Feb. 2024

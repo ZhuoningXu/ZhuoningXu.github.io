@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Zhuoning (Johnny) XU"
 title_separator          : "-"
 name                     : &name "Zhuoning (Johnny) XU"
-description              : &description "Personal academic website of Zhuoning (Johnny) XU — MS in Computer Science at NYU, working on multimodal learning, computer vision, and applied ML."
+description              : &description "Personal academic website of Zhuoning (Johnny) XU — MS in Computer Science at NYU, working on multimodal learning and applied ML."
 url                      : https://ZhuoningXu.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Zhuoning (Johnny) XU"
   pronouns         : # example: "she/her"
-  bio              : "MS in Computer Science, NYU Courant. Multimodal learning, computer vision & applied ML."
+  bio              : "MS in Computer Science, NYU Courant. Multimodal learning & applied ML."
   location         : "Jersey City, NJ, USA"
   employer         : "New York University"
   uri              : # URL
