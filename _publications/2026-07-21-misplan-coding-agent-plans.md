@@ -5,11 +5,11 @@ category: preprints
 permalink: /publication/2026-misplan-coding-agent-plans
 excerpt: 'A diagnostic benchmark of coding-agent plan modes that isolates five plan-content failures and shows that goal-scope errors can erase the benefits of planning.'
 date: 2026-07-21
-status: 'AAAI 2027 Conference Submission'
+status: 'Under review at AAAI 2027 · preprint forthcoming'
 paperurl: 'https://openreview.net/forum?id=EYL854kJNj'
 authors: '<a href="https://openreview.net/profile?id=~Hanjun_Luo1">Hanjun Luo</a>, <a href="https://openreview.net/profile?id=~Xiucheng_Zhang1">Xiucheng Zhang</a>, <strong><a href="https://openreview.net/profile?id=~Zhuoning_Xu3">Zhuoning Xu</a></strong>, et al.'
-affiliations: 'New York University; New York University Abu Dhabi'
-author_note: 'Corresponding author: <a href="https://openreview.net/profile?id=~Hanan_Salam1">Hanan Salam</a> (New York University Abu Dhabi). Full author list available on OpenReview.'
+affiliations: 'New York University; New York University Abu Dhabi; Tencent'
+author_note: 'Advisor and corresponding author: <a href="https://openreview.net/profile?id=~Hanan_Salam1">Hanan Salam</a> (New York University Abu Dhabi). Industry mentor: <a href="https://openreview.net/profile?id=~richeng_xuan1">Richeng Xuan</a> (Tencent). Full author list available on OpenReview.'
 ---
 
 Abstract

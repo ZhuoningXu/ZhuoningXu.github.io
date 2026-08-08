@@ -1,6 +1,6 @@
 ---
-title: "MasDrift: Authorization Preservation Across Multi-Agent Architectures"
-excerpt: "A 600-task benchmark for measuring task completion and authorization preservation across single-agent, centralized, and decentralized coordination. <b>Preprint; arXiv forthcoming.</b>"
+title: "MasDrift: Benchmarking Authorization Preservation Across Multi-Agent Architectures"
+excerpt: "A 600-task benchmark for measuring whether authorization survives delegation across single-agent, centralized, and decentralized coordination. <b>Under review at AAAI 2027; submitted to arXiv.</b>"
 collection: portfolio
 order: 1
 authors: '<strong>Zhuoning Xu</strong><sup>1,*</sup>, Xiucheng Zhang<sup>1,*</sup>, Hanjun Luo<sup>1,2,*</sup>, Yingbin Jin<sup>3</sup>, Yinpeng Dong<sup>4,†</sup>, and Hanan Salam<sup>1,2</sup>'
@@ -8,16 +8,19 @@ affiliations: '<sup>1</sup> New York University; <sup>2</sup> New York Universit
 author_note: '<sup>*</sup> Equal contribution; <sup>†</sup> Corresponding author.'
 ---
 
-**2026 · Preprint; arXiv posting forthcoming** ·
+**2026 · Under review at AAAI 2027; submitted to arXiv** ·
 [Code](https://github.com/ZhuoningXu/MasDrift)
 
-MasDrift benchmarks whether multi-agent systems preserve the authorization boundaries
-of the original user request while completing delegated work. It contains **600
-benign productivity tasks across eight domains**, each pairing required work with
-reserved actions.
+MasDrift formulates authorization preservation as a property that must survive
+delegation rather than be checked locally at each agent. Its deliberately benign
+threat model excludes prompt injection and malicious agents, isolating authorization
+drift as an endogenous failure of decomposition and hand-off.
 
-- Compares single-agent, centralized, and decentralized coordination while varying
-  hierarchy depth and peer width.
-- Measures both task completion and unauthorized actions, exposing a centralization
-  tradeoff that widens with hierarchy depth.
-- Evaluates request re-anchoring and delegation-chain policy propagation as defenses.
+- Designed a **600-task benchmark across eight productivity domains**, a parameterized
+  coordination runner, and trace-level evaluators for unauthorized action,
+  over-disclosure, and constraint loss with lost-at-hop localization.
+- Combined deterministic evaluation rules with a human-calibrated LLM judge across
+  single-agent, centralized, and decentralized coordination.
+- Proposed a **source-anchored authorization defense** that revalidates every pending
+  tool call against the original user request, suppressing unauthorized actions
+  across model configurations at negligible completion cost.

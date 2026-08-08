@@ -14,6 +14,10 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+{% if page.robots %}
+<meta name="robots" content="{{ page.robots }}"/>
+{% endif %}
+
 <!-- Rounded-square profile avatar (override default circle) -->
 <style>
   .author__avatar img {
@@ -22,6 +26,30 @@
     aspect-ratio: 1 / 1;
     width: 175px;
     max-width: 100%;
+  }
+
+  .cv-pdf-preview {
+    width: 100%;
+    height: 82vh;
+    min-height: 640px;
+    margin: 0.75rem 0 1rem;
+    overflow: hidden;
+    border: 1px solid #d7d7d7;
+    border-radius: 8px;
+    background: #f7f7f7;
+  }
+
+  .cv-pdf-preview iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  @media (max-width: 600px) {
+    .cv-pdf-preview {
+      height: 74vh;
+      min-height: 480px;
+    }
   }
 </style>
 

@@ -11,11 +11,11 @@ authors: 'Zhe Xiao<sup>1</sup>, Zongqi He<sup>1</sup>, <strong>Zhuoning Xu</stro
 affiliations: '<sup>1</sup> The Hong Kong Polytechnic University; <sup>2</sup> University of Technology Sydney'
 author_note: '<sup>†</sup> Corresponding authors: Wenjing Jia<sup>2</sup> and Kin-Man Lam<sup>1</sup>. Full author list available via DOI.'
 ---
-We propose a multi-perceptual learning network that integrates a Triple-Cross-Fusion
-GAN (built with PyTorch/OpenCV) for joint denoising and classification of retina OCT
-images. Replacing the VGG backbone with ResNet and adding multi-perception learning
-improves image quality and increases classification accuracy by over 1% relative to
-the baseline on the same dataset, while maintaining clinician-friendly real-time
-inference on GPU.
+We develop an end-to-end multi-perceptual learning framework that integrates a
+Triple-Cross-Fusion GAN for OCT image denoising with a ResNet-based classifier for
+retinal disease recognition using PyTorch and OpenCV. Controlled comparative
+experiments under consistent dataset and evaluation settings show an improvement of
+more than one percentage point in classification accuracy and higher reconstruction
+quality while sustaining real-time GPU inference.
 
 DOI: [10.1109/apsipaasc63619.2025.10848686](https://doi.org/10.1109/apsipaasc63619.2025.10848686)

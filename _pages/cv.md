@@ -3,23 +3,42 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
+sitemap: false
+robots: "noindex, nofollow"
 ---
 
 {% include base_path %}
 
-Download as PDF:
-[CS / ML résumé]({{ base_path }}/files/CV_Zhuoning_Xu_CS.pdf) ·
-[Quant / Finance résumé]({{ base_path }}/files/CV_Zhuoning_Xu_Quant.pdf)
+PDF Preview
+======
+
+<div class="cv-pdf-preview">
+  <iframe
+    src="https://drive.google.com/file/d/1tGiP4rQVepzG_fB-wuadsPpsBLA_vo6U/preview"
+    title="Zhuoning Xu CV PDF preview"
+    loading="lazy"
+    allow="autoplay">
+  </iframe>
+</div>
+
+[Open or download the PDF in Google Drive](https://drive.google.com/file/d/1tGiP4rQVepzG_fB-wuadsPpsBLA_vo6U/view?usp=sharing)
+· [View the shared folder](https://drive.google.com/drive/folders/1AtOY0I-bBtx2GeO2vApuzI9ZSAp2eh_k?usp=sharing)
+
+Access and download permissions are managed through Google Drive. If the embedded
+preview does not load, use the direct Google Drive link above.
+
+Research Interests
+======
+Reliable and secure LLM agents; agent evaluation and benchmarking; post-training and continual adaptation; human-in-the-loop and multi-agent systems.
 
 Education
 ======
-* M.S. in Computer Science, New York University (Courant Institute of Mathematical Sciences), Sept. 2025 – May 2027 (expected)
-  * GPA: 3.78 / 4.0
-  * Coursework: Programming Languages (Racket), Fundamental Algorithms, Mathematical Techniques for CS Applications, Machine Learning, Operating Systems, Natural Language Processing
-* B.Eng. in Electronic & Information Engineering (Minor in Computing), The Hong Kong Polytechnic University, Aug. 2021 – Jul. 2025
-  * First-Class Honours · ranked **Top 3 in major** (GPA 3.8) · Dean's Honours List (2021/22, 2022/23, 2023/24)
+* M.S. in Computer Science, New York University (Courant Institute of Mathematical Sciences), Sept. 2025 - May 2027 (expected)
+  * GPA: 3.8 / 4.0
+  * Coursework: Programming Languages, Mathematical Techniques for CS Applications, Machine Learning, Operating Systems, Natural Language Processing, Deep Learning, Computer Vision, GPUs: Architecture & Programming
+* B.Eng. in Electronic & Information Engineering (Minor in Computing), The Hong Kong Polytechnic University, Sept. 2021 - Jun. 2025
+  * First-Class Honours · ranked **Top 3 in major** (GPA 3.8) · Dean's Honours List (2021-2025)
+  * Coursework: Computer Systems, Programming Languages, Object-Oriented Programming, Web Application Design and Development, Operating Systems, Database Systems, Data and Computer Communication, Data Structures, Computer Vision and Pattern Recognition
 
 Awards &amp; Honors
 ======
@@ -30,62 +49,63 @@ Awards &amp; Honors
 
 Skills
 ======
-* **Programming Languages:** Python (Pandas, NumPy, Scikit-Learn, Matplotlib, PyTorch), C/C++, Java, SQL, Assembly, Web (PHP, HTML, CSS, JavaScript, AJAX)
-* **Tools & Platforms:** Git, Docker, Linux Shell, MySQL Workbench, MATLAB, PyCharm, Android Studio, AWS, ROS
+* **Programming Languages:** Python, C/C++, Java, SQL, JavaScript, PHP, HTML/CSS, Assembly Language
+* **LLM & Post-training:** Supervised Fine-tuning (SFT), Parameter-Efficient Fine-tuning (LoRA), Preference Optimization (DPO), Hugging Face Transformers
+* **ML & Data Libraries:** PyTorch, scikit-learn, Pandas, NumPy, Matplotlib, OpenCV
+* **Development Tools:** Git/GitHub, Docker, Linux/Bash, MySQL, MATLAB, LaTeX/Overleaf, Android Studio
+* **Embedded Systems & Robotics:** STM32, Arduino, STM32CubeMX, Arduino IDE, Embedded C, Microcontroller Programming, Sensor Integration
 
 Internship Experience
 ======
-* **Quantitative Trading Intern**, MOL Quant Limited, Hong Kong (Jan. 2025 – Jun. 2025)
-  * Built a Python quantitative trading framework from scratch: data ingestion/cleaning, vectorized processing, signal research, execution interfaces, and a fully vectorized backtesting engine.
-  * Established an AI-agent platform for real-time sentiment/event analysis on financial news, producing investment recommendations and risk alerts for intraday strategies and stock selection.
-* **Assistant Software Engineer Intern** (Front-end & Data Monitoring), YOTAI Digital Energy Technology Co., Ltd, Shenzhen, China (Jun. 2024 – Aug. 2024)
-  * Resolved data loss, errors, and UI lag by refining Umi/Node.js and shipping reusable hooks (WebSocket, device model, device data); improved page responsiveness by 15%.
-  * Built a monitoring web app and a unified equipment model, standardizing backend APIs and stabilizing live views with an efficient subscription/update pipeline.
-  * Developed a Python analysis module to automate reporting, boosting metric accuracy and cutting preparation time.
-* **Data Engineer Intern** (Business Intelligence & Visualization), Hangzhou Green Cloud S & T Co., Ltd., Hangzhou, China (Jun. 2023 – Jul. 2023)
-  * Used SQL to collect, clean, and combine operational data for trustworthy dashboards, reducing one-off data requests.
-  * Led desktop and mobile report development for 10+ clients; built visualization platforms with FineBI and launched command-center dashboards and large-screen displays.
-  * Captured requirements and applied statistical analysis to deliver forecasts and recommendations that improved operational efficiency.
+* **Quantitative Trading Intern**, MOL Quant Limited, Hong Kong (Jan. 2025 - Jun. 2025)
+  * Built a Python quantitative-trading framework with a data pipeline, vectorized backtesting engine, and execution interfaces, together with an LLM-agent platform for real-time financial-news sentiment and event analysis driving intraday signals.
+* **Assistant Software Engineer Intern** (Front-End & Data Monitoring), YOTAI Digital Energy Technology Co., Ltd., Shenzhen, China (Jun. 2024 - Aug. 2024)
+  * Built a real-time equipment-monitoring web application with Umi/Node.js, a WebSocket subscription pipeline, a unified device model, and automated Python reporting.
 
 Research Experience
 ======
 <div class="research-featured" markdown="1">
 
-* **MasDrift: Benchmarking Authorization Preservation Across Multi-Agent Architectures** (2026) — *Preprint; arXiv posting forthcoming.* ([Code](https://github.com/ZhuoningXu/MasDrift))
+* **MasDrift: Benchmarking Authorization Preservation Across Multi-Agent Architectures** (First Author, 2026) - *Under review at AAAI 2027; submitted to arXiv.* ([Code](https://github.com/ZhuoningXu/MasDrift))
   * **Authors:** **Zhuoning Xu**<sup>1,*</sup>, Xiucheng Zhang<sup>1,*</sup>, Hanjun Luo<sup>1,2,*</sup>, Yingbin Jin<sup>3</sup>, Yinpeng Dong<sup>4,†</sup>, and Hanan Salam<sup>1,2</sup>
   * **Affiliations:** <sup>1</sup> New York University; <sup>2</sup> New York University Abu Dhabi; <sup>3</sup> The Hong Kong Polytechnic University; <sup>4</sup> Tsinghua University
   * <sup>*</sup> Equal contribution; <sup>†</sup> Corresponding author.
-  * Benchmarked authorization preservation across single-agent, centralized, and decentralized architectures using 600 benign productivity tasks in eight domains; evaluated request re-anchoring and delegation-chain policy propagation as defenses.
+  * **Advisors:** Prof. Hanan Salam (NYU Abu Dhabi) and Prof. Yinpeng Dong (Tsinghua University)
+  * Formulated authorization preservation as a property that must survive delegation and defined a benign threat model that isolates drift as an endogenous failure of decomposition and hand-off.
+  * Designed a 600-task benchmark, a parameterized coordination runner, and trace-level evaluators combining deterministic rules with a human-calibrated LLM judge.
+  * Proposed a source-anchored authorization defense and led the experimental study, analysis, manuscript, and figures, showing that source re-anchoring suppresses unauthorized actions at negligible completion cost.
 
 </div>
 
-* **MisPlan: When Plans Hurt Coding Agents** (2026) — *AAAI 2027 Conference Submission* ([OpenReview](https://openreview.net/forum?id=EYL854kJNj)).
+* **MisPlan: When Plans Hurt Coding Agents** (Co-Author, 2026) - *Under review at AAAI 2027; preprint forthcoming.* ([OpenReview](https://openreview.net/forum?id=EYL854kJNj))
   * **Authors:** Hanjun Luo, Xiucheng Zhang, **Zhuoning Xu**, et al.
-  * **Affiliations:** New York University; New York University Abu Dhabi
-  * **Corresponding author:** Hanan Salam, New York University Abu Dhabi
-  * Built a diagnostic benchmark from 125,275 real coding-agent sessions and 193 human-validated repository tasks; showed that goal-scope errors can reduce resolve rate by 25 percentage points and make planning worse than no plan.
-* **VLHSA: Vision-Language Hierarchical Semantic Alignment for Jigsaw Puzzle Solving with Eroded Gaps** (2025) — *Accepted to the AAAI-26 Student Abstract Program* ([arXiv:2509.25202](https://arxiv.org/abs/2509.25202)).
+  * **Affiliations:** New York University; New York University Abu Dhabi; Tencent
+  * **Advisor:** Prof. Hanan Salam (NYU Abu Dhabi); **Industry Mentor:** Richeng Xuan (Tencent)
+  * Ran the full evaluation across six models on a unified mini-SWE-agent harness and three native coding agents (Claude Code, Codex, and CodeBuddy), and quality-checked every task's Docker environment and pass/fail oracle.
+  * Analyzed cross-condition resolve-rate asymmetry and produced the paper's diagnostic figures and tables, showing that goal-scope errors dominate the harm while implementation-detail errors are largely recoverable.
+* **Reconcile-then-Resume: Proportionate Mid-Run Steering for Coding Agents** (First Author, 2026) - *Manuscript in preparation for ICLR 2027.*
+  * **Advisor:** Prof. Hanan Salam (NYU Abu Dhabi)
+  * Formalized mid-run steering as a proportional-integration problem over aligned, partial-revision, and conflicting user instructions, and built a SWE-bench-based pipeline with integration-loss, overhead, and behavior-retention metrics.
+  * Proposed a runtime framework that reconciles new instructions against in-progress agent state and selectively preserves, revises, or reverts prior work; validated it in controlled experiments and through Codex's native steering interface.
+* **VLHSA: Vision-Language Hierarchical Semantic Alignment for Jigsaw Puzzle Solving with Eroded Gaps** (First Author, 2025) - *AAAI 2026 Student Abstract and Poster Program.* ([arXiv:2509.25202](https://arxiv.org/abs/2509.25202))
   * **Authors:** **Zhuoning Xu**<sup>1</sup> and Xinyan Liu<sup>1</sup>
   * **Affiliation:** <sup>1</sup> The Hong Kong Polytechnic University
-  * Multimodal (Mamba / state-space) framework with hierarchical semantic alignment between visual patches and text; +14.2 pp piece accuracy over vision-only baselines. Led the full research pipeline and ablations.
-* **MFGAN: OCT Image Super-Resolution and Enhancement with Blind Degradation and Multi-Frame Fusion** (2025) — *IWAIT 2025.* ([DOI](https://doi.org/10.1117/12.3057230))
-  * **Authors:** Zongqi He<sup>1</sup>, Zhe Xiao<sup>1</sup>, **Zhuoning Xu**<sup>1</sup>, et al.
-  * **Corresponding authors:** Wenjing Jia<sup>2</sup> and Kin-Man Lam<sup>1</sup>
-  * **Affiliations:** <sup>1</sup> The Hong Kong Polytechnic University; <sup>2</sup> University of Technology Sydney
-  * Developed a blind-degradation and multi-frame-fusion framework for OCT super-resolution and enhancement.
-* **A Multi-Perceptual Learning Network for Retina OCT Image Denoising and Classification** (Jan. 2024 – Sept. 2024) — *APSIPA ASC 2024.* ([DOI](https://doi.org/10.1109/APSIPAASC63619.2025.10848686))
+  * **Advisor:** Prof. Kin-Man Lam (PolyU)
+  * Introduced textual descriptions as semantic anchors and aligned Vision Mamba and BLIP representations at patch and image levels using InfoNCE contrastive loss and Hungarian matching.
+  * Led the research pipeline and ablation studies over local and global alignment branches, demonstrating significant permutation-accuracy gains over pure-vision baselines.
+* **A Multi-Perceptual Learning Network for Retina OCT Image Denoising and Classification** (Co-Author, 2024) - *APSIPA ASC 2024.* ([DOI](https://doi.org/10.1109/APSIPAASC63619.2025.10848686))
   * **Authors:** Zhe Xiao<sup>1</sup>, Zongqi He<sup>1</sup>, **Zhuoning Xu**<sup>1</sup>, et al.
-  * **Corresponding authors:** Wenjing Jia<sup>2</sup> and Kin-Man Lam<sup>1</sup>
-  * **Affiliations:** <sup>1</sup> The Hong Kong Polytechnic University; <sup>2</sup> University of Technology Sydney
-  * ResNet + Multi-Perception Learning with a Triple-Cross-Fusion GAN for joint denoising and classification.
-* **Sensor-based System for Monitoring Physical Activity in Older Adults** (Sept. 2023 – Sept. 2024) — YOLOv8-Pose + LSTM pipeline; >90% accuracy on 200 samples.
+  * **Advisors:** Prof. Kin-Man Lam (PolyU) and Prof. Wenjing Jia (UTS)
+  * Developed an end-to-end multi-perceptual learning framework integrating a Triple-Cross-Fusion GAN for OCT denoising with a ResNet-based classifier for retinal disease recognition using PyTorch and OpenCV.
+  * Conducted controlled comparative experiments, improving classification accuracy by more than one percentage point and reconstruction quality while sustaining real-time GPU inference.
 
-Selected Projects
+Course Project
 ======
-* **Automated Cart Delivery Robot** (Sept. 2023 – May 2024) — multi-sensor fusion on ROS with closed-loop PID pose control; travel-distance error within 5%.
-* **Traffic-Sign Detection for ADAS** (Feb. 2024 – Feb. 2025) — two-stage image-restoration + classification pipeline; 25 dB PSNR, ~80% accuracy.
+* **Personalized Style Steering with a LoRA Guide Model** - Machine Learning course project (May 2026)
+  * LoRA-fine-tuned a Qwen 3.5-4B model to capture a fixed task style using a reinforcement-learning objective combining style-consistency and task-success rewards.
+  * Used the small guide model to steer a frozen large model at inference, improving style and format adherence at substantially lower cost than fine-tuning the large model; benchmarked against prompt-only and SFT baselines.
 
-Publications
+Publications &amp; Manuscripts
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}

@@ -2,7 +2,7 @@
 title: "Automated Cart Delivery Robot (ROS, Multi-Sensor Fusion)"
 excerpt: "ROS-based delivery robot with multi-sensor fusion and closed-loop PID pose control, achieving stable route following with end-to-end travel error within 5%."
 collection: portfolio
-order: 8
+order: 10
 ---
 
 **Sept. 2023 – May 2024**
